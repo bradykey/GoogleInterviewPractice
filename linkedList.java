@@ -48,5 +48,8 @@ public class LListElement<T> extends LList<T> {
 
 public static void main(String[] args) {
 	// create a linked list
-	LListElement<Int> l1 = new LListElement<Int>(10);	
+	LList<Int> l1 = new LListElement<Int>(10);
+	l1.insert(5);
+	l1.insert(2);
+	l1.insert(3);
 }
